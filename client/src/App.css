@@ -1,0 +1,17 @@
+.form-control:focus {
+  color: var(--bs-body-color) !important;
+  border-color: #dee2e6 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.btn:hover {
+  color: none;
+  background-color: none;
+  border-color: none;
+}
+
+@import url("./style/reactInput.css");
+@import url("./style/loginForm.css");
+@import url("./style/mainLayout.css");
+@import url("./style/home.css");

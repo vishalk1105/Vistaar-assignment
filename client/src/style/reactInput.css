@@ -1,0 +1,33 @@
+.react-input {
+    position: relative;
+    margin-bottom: 16px;
+    text-align: left;
+ 
+}   .form-control {
+       font-size: 14px;
+       padding: 8px;
+   }
+
+   .innerInput {
+       position: relative;
+       display: flex;
+       align-items: center;
+   }
+
+   .color-picker {
+       margin: 0;
+   }
+
+   .icon {
+       position: absolute;
+       right: 16px;
+       cursor: pointer;
+   }
+
+   .errorMsg {
+       font-size: 12px;
+   }
+
+   .asterisk {
+       padding: 3px;
+   }

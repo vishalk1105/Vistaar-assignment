@@ -1,0 +1,41 @@
+.loginFormDiv {
+  width: 100%;
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid grey;
+  opacity: 0.9;
+}
+.loginHeader {
+  height: 60px;
+}
+.logInLogo {
+  width: 45px;
+  height: 50px;
+}
+.passwordInput {
+  position: relative;
+}
+
+.passwordIcon {
+  position: absolute;
+  right: 10px;
+}
+
+/* Log In LAyout CSS */
+.logInLayoutDiv {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: url("https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG9ubGluZSUyMHNob3BwaW5nfGVufDB8fDB8fHww");
+  object-position: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.google-png {
+  width: 100%;
+}
